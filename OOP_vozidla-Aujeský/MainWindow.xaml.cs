@@ -38,7 +38,23 @@ namespace OOP_vozidla_Aujeský
         public void Zobraz (Nakladak nákladak, TextBox textBox)
         {
             textBox.Text = nákladak.název + "\n";
-            textBox.Text += "Nosnost " + nákladak.nosnost.ToString() + "\n";
+            textBox.Text += "Nosnost " + nákladak.nosnost.ToString()+ "kg" + "\n";
+            textBox.Text += "Náklad " + nákladak.náklad.ToString() + "kg" + "\n";
+            textBox.Text += "Spotřeba nádrže " + nákladak.Spotřeba_Nádrže.ToString() + "l/100km" + "\n";
+            textBox.Text += "Objem nadrze " + nákladak.ObjemNadrze.ToString()+ "l" + "\n";
+            textBox.Text += "Celková vzdálenost " + nákladak.CelkováVzdalenost.ToString() + "km" + "\n";
+        }
+
+        private void JetN_Click(object sender, RoutedEventArgs e)
+        {
+            man.jet();
+            Zobraz(man, text1);
+        }
+
+        private void JetA_Click(object sender, RoutedEventArgs e)
+        {
+            mercedes.jet();
+            Zobraz(mercedes, text2);
         }
     }
 }

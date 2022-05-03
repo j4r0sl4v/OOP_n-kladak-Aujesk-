@@ -12,11 +12,11 @@
         <Button Content="Button" HorizontalAlignment="Left" Height="30" Margin="190,250,0,0" VerticalAlignment="Top" Width="100"/>
         <Button Content="Button" HorizontalAlignment="Left" Height="30" Margin="190,180,0,0" VerticalAlignment="Top" Width="100"/>
         <Button Content="Button" HorizontalAlignment="Left" Height="30" Margin="190,110,0,0" VerticalAlignment="Top" Width="100"/>
-        <Button x:Name="JetN" Content="Jet" HorizontalAlignment="Left" Height="30" Margin="190,40,0,0" VerticalAlignment="Top" Width="100"/>
+        <Button x:Name="JetN" Content="Jet" HorizontalAlignment="Left" Height="30" Margin="190,40,0,0" VerticalAlignment="Top" Width="100" Click="JetN_Click"/>
         <Button Content="Button" HorizontalAlignment="Left" Height="30" Margin="510,250,0,0" VerticalAlignment="Top" Width="100"/>
         <Button Content="Button" HorizontalAlignment="Left" Height="30" Margin="510,180,0,0" VerticalAlignment="Top" Width="100"/>
         <Button Content="Button" HorizontalAlignment="Left" Height="30" Margin="510,110,0,0" VerticalAlignment="Top" Width="100"/>
-        <Button x:Name="JetA" Content="Jet" HorizontalAlignment="Left" Height="30" Margin="510,40,0,0" VerticalAlignment="Top" Width="100"/>
+        <Button x:Name="JetA" Content="Jet" HorizontalAlignment="Left" Height="30" Margin="510,40,0,0" VerticalAlignment="Top" Width="100" Click="JetA_Click"/>
 
     </Grid>
 </Window>

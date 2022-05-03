@@ -17,22 +17,27 @@ namespace OOP_vozidla_Aujeský
         
         public int CelkováVzdalenost { get; set; } 
 
-        public  void MAN()
+        public int náklad { get; set; }
+
+        public Nakladak()
         {
             název = "";
             nosnost = 25000;
+            náklad = 0;
             ObjemNadrze = 1000;
             Spotřeba_Nádrže = 25;
             CelkováVzdalenost = 0;
         }
-        public void MERCEDES()
-        {
-            název = "";
-            nosnost = 30000;
-            ObjemNadrze = 1500;
-            Spotřeba_Nádrže = 50;
-            CelkováVzdalenost = 0;
-        }
 
+        public void jet()
+        {
+            CelkováVzdalenost += 100;
+            ObjemNadrze -= 25;
+            if (ObjemNadrze <= 0)
+            {
+                ObjemNadrze = 0;
+                CelkováVzdalenost += 0;
+            }
+        }
     }
 }
