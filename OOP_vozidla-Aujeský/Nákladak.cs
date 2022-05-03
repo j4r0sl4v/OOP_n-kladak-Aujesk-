@@ -36,7 +36,16 @@ namespace OOP_vozidla_Aujeský
             if (ObjemNadrze <= 0)
             {
                 ObjemNadrze = 0;
-                CelkováVzdalenost += 0;
+                CelkováVzdalenost -= 100;
+            }
+        }
+
+        public void natankovat()
+        {
+            ObjemNadrze += 100;
+            if (ObjemNadrze >= 1000)
+            {
+                ObjemNadrze = 1000;
             }
         }
     }

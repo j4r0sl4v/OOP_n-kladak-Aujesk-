@@ -56,5 +56,17 @@ namespace OOP_vozidla_Aujeský
             mercedes.jet();
             Zobraz(mercedes, text2);
         }
+
+        private void NatankovatN_Click(object sender, RoutedEventArgs e)
+        {
+            man.natankovat();
+            Zobraz(man, text1);
+        }
+
+        private void NatankovatA_Click(object sender, RoutedEventArgs e)
+        {
+            mercedes.natankovat();
+            Zobraz(mercedes, text2);
+        }
     }
 }
