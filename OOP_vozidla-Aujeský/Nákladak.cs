@@ -54,7 +54,7 @@ namespace OOP_vozidla_Aujeský
             náklad += 1000;
             if (náklad >= 25000)
             {
-                náklad -= 25000;
+                náklad = 25000;
             }
         }
 
