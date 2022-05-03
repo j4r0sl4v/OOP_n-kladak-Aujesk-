@@ -9,12 +9,12 @@
     <Grid>
         <TextBox x:Name="text1" HorizontalAlignment="Left" Height="414" Margin="10,0,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Center" Width="175"/>
         <TextBox x:Name="text2" HorizontalAlignment="Left" Height="414" Margin="615,0,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Center" Width="175"/>
-        <Button Content="Button" HorizontalAlignment="Left" Height="30" Margin="190,250,0,0" VerticalAlignment="Top" Width="100"/>
-        <Button Content="Button" HorizontalAlignment="Left" Height="30" Margin="190,180,0,0" VerticalAlignment="Top" Width="100"/>
+        <Button x:Name="vyložit1" Content="Vyložit" HorizontalAlignment="Left" Height="30" Margin="190,250,0,0" VerticalAlignment="Top" Width="100" Click="vyložit1_Click"/>
+        <Button x:Name="NaložitN" Content="Naložit" HorizontalAlignment="Left" Height="30" Margin="190,180,0,0" VerticalAlignment="Top" Width="100" Click="NaložitN_Click"/>
         <Button x:Name="NatankovatN" Content="Natankovat" HorizontalAlignment="Left" Height="30" Margin="190,110,0,0" VerticalAlignment="Top" Width="100" Click="NatankovatN_Click"/>
         <Button x:Name="JetN" Content="Jet" HorizontalAlignment="Left" Height="30" Margin="190,40,0,0" VerticalAlignment="Top" Width="100" Click="JetN_Click"/>
-        <Button Content="Button" HorizontalAlignment="Left" Height="30" Margin="510,250,0,0" VerticalAlignment="Top" Width="100"/>
-        <Button Content="Button" HorizontalAlignment="Left" Height="30" Margin="510,180,0,0" VerticalAlignment="Top" Width="100"/>
+        <Button x:Name="vyložiz2" Content="Vyložit" HorizontalAlignment="Left" Height="30" Margin="510,250,0,0" VerticalAlignment="Top" Width="100" Click="vyložiz2_Click"/>
+        <Button x:Name="NaložitA" Content="Naložit" HorizontalAlignment="Left" Height="30" Margin="510,180,0,0" VerticalAlignment="Top" Width="100" Click="NaložitA_Click"/>
         <Button x:Name="NatankovatA" Content="Natankovat" HorizontalAlignment="Left" Height="30" Margin="510,110,0,0" VerticalAlignment="Top" Width="100" Click="NatankovatA_Click"/>
         <Button x:Name="JetA" Content="Jet" HorizontalAlignment="Left" Height="30" Margin="510,40,0,0" VerticalAlignment="Top" Width="100" Click="JetA_Click"/>
 

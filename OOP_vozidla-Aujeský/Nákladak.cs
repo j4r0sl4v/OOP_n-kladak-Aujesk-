@@ -48,5 +48,24 @@ namespace OOP_vozidla_Aujeský
                 ObjemNadrze = 1000;
             }
         }
+
+        public void naložit()
+        {
+            náklad += 1000;
+            if (náklad >= 25000)
+            {
+                náklad -= 25000;
+            }
+        }
+
+        public void vyložit()
+        {
+            náklad -= 1000;
+            if (náklad <= 0)
+            {
+                náklad = 0;
+            }
+        }
+
     }
 }
